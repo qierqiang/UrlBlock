@@ -1,7 +1,7 @@
 ﻿{
     "manifest_version": 2,
-    "name": "屏蔽主页",
-    "version": "0.0.1",
+    "name": "屏蔽网址",
+    "version": "1.0.0",
     "options_page":"options.htm",
     "background": {
         "scripts": [
@@ -11,12 +11,12 @@
     "permissions": [
         "tabs"
     ],
-    "page_action": {
+    "browser_action": {
         "default_icon": {
             "19": "ico_19.png",
             "38": "ico_38.png"
         },
         "default_popup": "popup.htm",
-        "default_title": "清除主页内容，对付被强制设置主页的情况。总之，谁是主页谁就打不开！"
+        "default_title": "屏蔽列表中的网址，并跳转到指定网址。"
     }
 }
